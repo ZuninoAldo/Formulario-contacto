@@ -1,0 +1,45 @@
+.formulario {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+
+    .contactame {
+        width: 50%;
+        height: 300px;
+        padding: 30px;
+
+        h4 {
+            color: gray;
+            text-decoration: underline;
+            font-size: x-large;
+            text-align: center;
+            padding: 10px;
+            margin-bottom: 40px;
+        }
+
+        input {
+            width: 100%;
+            font-size: 18px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid rgba(164, 164, 164, 0.59);
+        }
+
+        textarea {
+            width: 100%;
+            font-size: 18px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 2px solid rgba(164, 164, 164, 0.59);
+        }
+
+        #enviar {
+            font-size: 18px;
+            background-color: rgba(164, 164, 164, 0.59);
+            border: 1px solid rgba(164, 164, 164, 0.59);
+            margin-top: 4px;
+        }
+    }
+}
